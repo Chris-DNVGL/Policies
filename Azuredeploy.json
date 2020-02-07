@@ -1,6 +1,6 @@
 {
     "properties": {
-      "displayName": "DNV GL - Azure Batch - Batch Uses KeyVault for Access Keys.",
+      "displayName": "DNV GL - Azure Batch - Testing Pipelines",
       "policyType": "Custom",
       "mode": "All",
       "description": "Batch - Batch Uses KeyVault for Access Keys.",
