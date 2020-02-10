@@ -1,0 +1,44 @@
+{
+    "properties": {
+      "displayName": "DNV GL - Azure Batch - Testing Pipelines",
+      "policyType": "Custom",
+      "mode": "All",
+      "description": "Batch - Batch Uses KeyVault for Access Keys.",
+      "metadata": {
+        "createdBy": "19e89a29-078c-46fe-9441-05a4afcc6686",
+        "createdOn": "2019-08-30T13:52:55.8307758Z",
+        "updatedBy": "19e89a29-078c-46fe-9441-05a4afcc6686",
+        "updatedOn": "2019-11-20T11:28:29.6915204Z"
+      },
+      "parameters": {},
+      "policyRule": {
+        "if": {
+          "field": "type",
+          "equals": "Microsoft.Batch/batchAccounts"
+        },
+        "then": {
+          "effect": "audit",
+          "details": {
+            "type": "Microsoft.Batch/batchAccounts",
+            "existenceScope": "subscription",
+            "existenceCondition": {
+              "allOf": [
+                {
+                  "field": "Microsoft.Batch/batchAccounts/keyVaultReference",
+                  "exists": "true"
+                },
+                {
+                  "field": "Microsoft.Batch/batchAccounts/keyVaultReference.id",
+                  "exists": "true"
+                },
+                {
+                  "field": "Microsoft.Batch/batchAccounts/keyVaultReference.url",
+                  "exists": "true"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+}
