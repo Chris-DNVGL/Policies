@@ -1,18 +1,9 @@
 {
-    "properties": {
-      "displayName": "Pipeline Testing",
-      "description": "Policies to test Pipelines",
-      "metadata": {
-        "category": "Pipelines"
-      },
-      "parameters": {
-        "namePrefix": {
-          "type": "String",
-          "defaultValue": "myPrefix",
-          "metadata": {
-            "displayName": "Prefix to enforce on resource names"
-          }
-        }
-      }
+  "properties": {
+    "displayName": "Pipeline Testing",
+    "description": "Policies to test Pipelines",
+    "metadata": {
+      "category": "Pipelines"
     }
   }
+}
