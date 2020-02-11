@@ -1,9 +1,7 @@
 {
-  "properties": {
-    "displayName": "Pipeline Testing",
-    "description": "Policies to test Pipelines",
-    "metadata": {
-      "category": "Pipelines"
-    }
+  "policyType": "Custom",
+  "displayName": "Pipeline Initiative",
+  "description": "Testing Pipeline",
+  "metadata": {
+    "category": "DNV GL Custom Policies"
   }
-}
