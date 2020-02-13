@@ -1,0 +1,30 @@
+{
+  
+    "if": {
+      "field": "type",
+      "equals": "Microsoft.Batch/batchAccounts"
+    },
+    "then": {
+      "effect": "audit",
+      "details": {
+        "type": "Microsoft.Batch/batchAccounts",
+        "existenceScope": "subscription",
+        "existenceCondition": {
+          "allOf": [
+            {
+              "field": "Microsoft.Batch/batchAccounts/keyVaultReference",
+              "exists": "true"
+            },
+            {
+              "field": "Microsoft.Batch/batchAccounts/keyVaultReference.id",
+              "exists": "true"
+            },
+            {
+              "field": "Microsoft.Batch/batchAccounts/keyVaultReference.url",
+              "exists": "true"
+            }
+          ]
+        }
+      }
+    }
+  }

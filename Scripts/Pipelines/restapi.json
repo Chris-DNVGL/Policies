@@ -1,0 +1,11 @@
+{
+    "properties": {
+        "displayName": "Testing Pipeline Enforcement",
+        "description": "Testing pipeline Assignment on Management Group Level",
+        "metadata": {
+            "assignedBy": "GSS IT"
+        },
+        "enforcementMode": "DoNotEnforce",
+        "policyDefinitionId" : "/managementgroups/68bcf241-a9a9-4d13-a40f-20486631c688/providers/Microsoft.Authorization/policysetdefinitions/Testing"
+    }
+}
