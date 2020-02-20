@@ -17,21 +17,5 @@
         }
       ]
     }
-  },
-"parameters": {
-  "tagName": {
-      "type": "String",
-      "metadata": {
-          "displayName": "TestingTags",
-          "description": "Name of the tag, such as 'environment'"
-      }
-  },
-  "tagValue": {
-      "type": "String",
-      "metadata": {
-          "displayName": "TestTag",
-          "description": "Value of the tag, such as 'production'"
-      }
   }
-}
 }
