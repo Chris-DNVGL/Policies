@@ -1,0 +1,15 @@
+{
+    "identity": {
+        "type": "SystemAssigned"
+    },
+    "location": "westeurope",
+    "properties": {
+        "displayName": "Testing Pipeline Enforcement",
+        "description": "Testing pipeline Assignment on subscription level",
+        "metadata": {
+            "assignedBy": "GSS IT"
+        },
+        "enforcementMode": "DoNotEnforce",
+        "policyDefinitionId": "/subscriptions/26a6717f-ee24-4802-bda7-0a17b0790911/providers/Microsoft.Authorization/policysetdefinitions/Tagging"
+    }
+}
