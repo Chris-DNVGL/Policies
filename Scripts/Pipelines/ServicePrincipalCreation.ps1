@@ -11,7 +11,7 @@ if ($roleDefinitionIds.Count -gt 0)
 {
     $roleDefinitionIds | ForEach-Object {
         $roleDefId = $_.Split("/") | Select-Object -Last 1
-        New-AzRoleAssignment -Scope $assignment.ResourceGroupName -ObjectId $assignment.Identity.principalId -RoleDefinitionId $roleDefId
+        New-AzRoleAssignment -Scope $assignment.Properties.Scope -ObjectId $assignment.Identity.principalId -RoleDefinitionId $roleDefId
     }
 }
 
