@@ -7,8 +7,7 @@
     "effect": "modify",
     "details": {
       "roleDefinitionIds": [
-        "/subscriptions/26a6717f-ee24-4802-bda7-0a17b0790911/resourceGroups/chrcla-RG/providers/Microsoft.Authorization/roleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
-        "/providers/microsoft.authorization/roleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c"
+          "/providers/microsoft.authorization/roleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c"
       ],
       "operations": [
         {
