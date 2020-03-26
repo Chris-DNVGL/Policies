@@ -1,5 +1,5 @@
 #$pscredential = Get-Credential
-connect-AzAccount -ServicePrincipal -Tenant "adf10e2b-b6e9-41d6-be2f-c12bb566019c"
+# connect-AzAccount -ServicePrincipal -Tenant "adf10e2b-b6e9-41d6-be2f-c12bb566019c"
 
 # Get the reference to the resource group
 $resourceGroup = Get-AzResourceGroup -Name 'chrcla-rg'
