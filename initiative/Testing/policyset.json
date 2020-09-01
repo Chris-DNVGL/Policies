@@ -1,6 +1,10 @@
 [
-{
-  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0015ea4d-51ff-4ce3-8d8c-f3f8f0179a56",
-  "parameters": {}
-}
+  {
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/26ee67a2-f81a-4ba8-b9ce-8550bd5ee1a7",
+    "parameters": {
+      "metricName": {
+        "value": "MetricName"
+      }
+    }
+  }
 ]
